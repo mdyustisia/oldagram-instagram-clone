@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDED;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 650px;
+    margin: 0 auto;
+}
+/* Header */
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 3px solid #EDEDED;
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* Section */
+
+/* User Info */
+
+.post {
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.user-container h4,
+.user-container p {
+    margin: 0 0 0 10px;
+    text-align: left;
+
+}
+
+/* Post */
+
+.image-post {
+    width: 100%;
+}
+
+/* Post Interaction */
+
+.post-interaction {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 20px 20px;
+}
+
+.post-icon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.total-likes {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 20px
+}
+
+.comment-post {
+    margin: 0;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.comment-post p,
+.comment-post h4 {
+    margin: 0 0 0 5px;
+}
+
+
+
+.view-comments {
+    display: flex;
+    text-decoration: none;
+    margin: 0 20px 20px 20px;
+    color: grey;
+    width: fit-content;
+}
